@@ -10,20 +10,20 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 0 34px;
+    padding: 0 2vw;
     background: transparent;
 }
 .nav div,.nav div a{
     font-size: medium;
     color: #fff;
     text-decoration: none;
-    padding: 18px 16px;
+    padding: 3vh 4vh;
 }
 .nav a:hover{
     border-bottom: 2px solid #5bdbce;
 }
 .container{
-    width: 90%;
+    width: 90vw;
     margin: 0 auto;
 }
 .container .text-main{
@@ -31,36 +31,36 @@ body{
     margin-bottom: 0;
 }
 .info-1, .info-2{
-    padding: 10px 0;
-    width: 35%;
+    padding: 1.5vw 0;
+    width: 30vw;
 }
 .info-3{
     float: right;
-    width: 30%;
+    width: 25vw;
     background: rgba(0, 0, 0, 0.3);
-    padding: 15px;
-    border-radius: 15px;
+    padding: 2vw;
+    border-radius: 2vw;
 }
 .price-tag{
-    margin-top: 5px;
+    margin-top: 2vh;
 }
 .buy-btn{
-    margin-top: 14px;
-    padding: 15px 60px;
-    border-radius: 14px;
+    margin-top: 4vh;
+    padding: 2.5vh 5.5vw;
+    border-radius: 2vh;
     background: #5bdbce;
     border: none;
     cursor: pointer;
 }
 .sidefooter{
     position: absolute;
-    right: 34px;
-    top: 32%;
+    right: 4vw;
+    top: 40vh;
 }
 .sidefooter a{
     text-decoration: none;
     color: #fff;
-    padding: 16px;
+    padding: 1.5vw;
     display: block;
 }
 .sidefooter a:hover{
