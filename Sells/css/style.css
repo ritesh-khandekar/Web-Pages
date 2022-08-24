@@ -9,9 +9,10 @@ body{
     padding: 0 34px;
 }
 .nav div,.nav div a{
+    font-size: medium;
     color: #000;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 18px 16px;
 }
 .nav a:hover{
     border-bottom: 2px solid #000;
@@ -28,6 +29,10 @@ body{
     padding: 10px 0;
     width: 35%;
 }
+.info-3{
+    float: right;
+    width: 30%;
+}
 .price-tag{
     margin-top: 5px;
 }
@@ -36,4 +41,19 @@ body{
     padding: 15px 60px;
     border-radius: 14px;
     border: none;
+}
+.sidefooter{
+    position: absolute;
+    right: 34px;
+    top: 32%;
+}
+.sidefooter a{
+    text-decoration: none;
+    color: #000;
+    padding: 16px;
+    display: block;
+}
+.sidefooter a:hover{
+    background: #000;
+    color: aliceblue;
 }
