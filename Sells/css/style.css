@@ -51,6 +51,7 @@ body{
     background: #5bdbce;
     border: none;
     cursor: pointer;
+    font-weight: bolder;
 }
 .sidefooter{
     position: absolute;
