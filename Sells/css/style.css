@@ -2,20 +2,25 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    color: #fff;
+    background-image: url(./../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav{
     display: flex;
     justify-content: space-between;
     padding: 0 34px;
+    background: transparent;
 }
 .nav div,.nav div a{
     font-size: medium;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     padding: 18px 16px;
 }
 .nav a:hover{
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #5bdbce;
 }
 .container{
     width: 90%;
@@ -32,6 +37,9 @@ body{
 .info-3{
     float: right;
     width: 30%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 15px;
 }
 .price-tag{
     margin-top: 5px;
@@ -40,7 +48,9 @@ body{
     margin-top: 14px;
     padding: 15px 60px;
     border-radius: 14px;
+    background: #5bdbce;
     border: none;
+    cursor: pointer;
 }
 .sidefooter{
     position: absolute;
@@ -49,11 +59,11 @@ body{
 }
 .sidefooter a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     padding: 16px;
     display: block;
 }
 .sidefooter a:hover{
-    background: #000;
-    color: aliceblue;
+    /* background: #fff; */
+    color: #5bdbce;
 }
