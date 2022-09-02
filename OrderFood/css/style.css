@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 3rem;
+}
+.nav div{
+    padding: 14px 0;
+}
+.nav .nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #2d5b0b;
+    margin: 0 10px;
+    padding: 5px 0;
+}
+.nav .brandlogo{
+    font-weight: bolder;
+    padding-left: 0;
+    margin-left: 0;
+}
+.nav a:not(.brandlogo a):hover{
+    border-bottom: 3px solid #2d5b0b;
+}
+.container{
+    padding-top: 50px;
+    width: 100%;
+}
+.containt{
+    padding: 3rem;
+    width: 35%;
+}
+.small-text{
+    font-size: .8em;
+    padding: 10px 0;
+    color: rgb(170, 170, 170);
+}
+.brand-name-lg{
+    font-size: 5em;
+    margin: 20px 0;
+    color: #558c2d;
+}
+.checks{
+    padding-bottom: 30px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.checks label{
+    padding-right: 20px;
+}
+.main-btns{
+    padding-top: 40px;
+}
+
+.btn.btn-main{
+    margin-right: 20px;
+    padding: 12px 24px;
+    border: none;
+    color: white;
+    font-size: medium;
+    border-radius: 6px;
+    background-color: #1a2214;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.btn.btn-main:nth-child(1){
+    background-color: #264f09;
+}
+.footer{
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+}
+.circle{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #1a2214;
+    margin-right: 20px;
+}
