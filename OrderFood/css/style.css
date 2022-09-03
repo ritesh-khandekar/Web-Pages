@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    /* text-shadow  : rgba(29, 42, 12, 0.174) 0px 5px 15px; */
 }
 .nav{
     display: flex;
@@ -27,7 +28,7 @@ body{
     border-bottom: 3px solid #2d5b0b;
 }
 .container{
-    padding-top: 50px;
+    padding-top: 3rem;
     width: 100%;
 }
 .containt{
@@ -79,4 +80,47 @@ body{
     height: 30px;
     background-color: #1a2214;
     margin-right: 20px;
+}
+.disc-coupens{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    /* padding: 0 25px; */
+    position: absolute;
+    right: 3rem;
+    bottom: 3rem;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    /* width: 20%; */
+}
+.disc-coupens .top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.disc-coupens .bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    padding-top: 0;
+}
+.disc-coupens .right, .right a{
+    font-size: x-small;
+    padding: 0 10px;
+}
+.disc-coupens .bottom .cols:nth-child(3) small{
+    text-decoration: line-through;
+}
+.bottom button{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background: gold;
+    font-size: small;
+    color: #453814;
 }
