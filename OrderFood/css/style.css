@@ -31,9 +31,14 @@ body{
     padding-top: 3rem;
     width: 100%;
 }
-.containt{
+.content{
     padding: 3rem;
     width: 35%;
+}
+.main-img{
+    float: right;
+    width: 40%;
+    margin-right: 120px;
 }
 .small-text{
     font-size: .8em;
@@ -88,6 +93,7 @@ body{
     /* padding: 0 25px; */
     position: absolute;
     right: 3rem;
+    background-color: white;
     bottom: 3rem;
     width: 35%;
     border-radius: 10px;

@@ -1,0 +1,66 @@
+body {
+    padding: 10px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    /* font-size: 2.5em; */
+    padding: 60px;
+    font-size: larger;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container .card {
+    margin: 10px;
+    padding: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.container .card:hover{
+    transform: scale(1.05);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card .img-area {
+    text-align: center;
+}
+
+.card .card-text {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card small {
+    color: #959595;
+}
+
+.card .card-btn {
+    padding: 2vh;
+    font-weight: bold;
+    border-radius: 2vh;
+    color: white;
+    background: linear-gradient(to right, #5b36ff, #00d4ff);
+    border: none;
+    width: 60%;
+    transition: 0.5s;
+}
+
+.card .card-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card .card-img {
+    width: 300px;
+}
